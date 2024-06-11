@@ -21,7 +21,6 @@ def load_tokens():
 def save_tokens(tokens):
     with open(TOKEN_FILE, 'w') as f:
         json.dump(tokens, f)
-
 def refresh_access_token(refresh_token):
     token_url = "https://zoom.us/oauth/token"
     headers = {
@@ -38,6 +37,7 @@ def refresh_access_token(refresh_token):
         save_tokens(response_data)  
         return response_data.get("access_token")
     else:
+        
         print("Failed to refresh access token.")
         return None
 
