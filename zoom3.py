@@ -50,8 +50,8 @@ def schedule_meeting(access_token):
     meeting_details = {
         "topic": "Automated Meeting",
         "type": 2,  
-        "start_time": "2024-06-04T7:20:00Z",  
-        "duration": 60,  
+        "start_time": "2024-06-11T7:20:00Z",  
+        "duration": 30,  
         "timezone": "UTC",
         "agenda": "This is an automated meeting",
         "settings": {
