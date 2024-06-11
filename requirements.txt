@@ -1,50 +1,50 @@
-amqp==5.2.0  # No change
+amqp==5.2.0
 appdirs==1.4.4
-attrs==23.3.0
-billiard==5.6.0
-blinker==1.8.2  # No change
-celery==5.5.2
-certifi==2024.7.28
-cffi==1.16.0  # No change
-charset-normalizer==3.14.0
-click==8.1.8
-click-didyoumean==0.3.0  # No change
-click-plugins==1.1.1  # No change
-click-repl==0.3.0  # No change
-colorama==0.4.6  # No change
-Flask==3.0.3  # No change
-gunicorn==22.0.1
-h11==0.14.0  # No change
-idna==3.4.0
-importlib_metadata==4.12.0
-itsdangerous==2.3.2
-Jinja2==3.1.4  # No change
-kombu==6.2.0
-MarkupSafe==2.1.1  # No change
-outcome==1.2.0  # No compatible newer version
-packaging==21.3.4  # Newer version might have breaking changes
-prompt_toolkit==3.12.1
-pycparser==2.22  # No change
-pyee==13.2.0
-pyppeteer==11.8.1  # Significant update, check compatibility
-PySocks==1.7.1  # No change
-python-dateutil==2.13.10
-python-dotenv==0.20.0
-requests==2.32.3  # No change
-selenium==4.7.4
-six==1.20.2
-sniffio==1.3.1  # No change
-sortedcontainers==2.6.0
-tqdm==4.71.0
-trio==0.25.2
-trio-websocket==0.13.1
-typing_extensions==4.4.0
-tzdata==2024.6  # Newer version available, might require updates
-urllib3==1.27.1
-vine==6.0.1
-wcwidth==0.2.2
-webdriver-manager==4.8.0
-websockets==10.5
-Werkzeug==3.1.2
-wsproto==1.3.0
-zipp==3.10.0
+attrs==23.2.0
+billiard==4.2.0
+blinker==1.8.2
+celery==5.4.0
+certifi==2024.6.2
+cffi==1.16.0
+charset-normalizer==3.3.2
+click==8.1.7
+click-didyoumean==0.3.1
+click-plugins==1.1.1
+click-repl==0.3.0
+colorama==0.4.6
+Flask==3.0.3
+gunicorn==22.0.0
+h11==0.14.0
+idna==3.7
+importlib_metadata==7.1.0
+itsdangerous==2.2.0
+Jinja2==3.1.4
+kombu==5.3.7
+MarkupSafe==2.1.5
+outcome==1.3.0.post0
+packaging==24.0
+prompt_toolkit==3.0.46
+pycparser==2.22
+pyee==11.1.0
+pyppeteer==2.0.0
+PySocks==1.7.1
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+requests==2.32.3
+selenium==4.21.0
+six==1.16.0
+sniffio==1.3.1
+sortedcontainers==2.4.0
+tqdm==4.66.4
+trio==0.25.1
+trio-websocket==0.11.1
+typing_extensions==4.12.1
+tzdata==2024.1
+urllib3==1.26.18
+vine==5.1.0
+wcwidth==0.2.13
+webdriver-manager==4.0.1
+websockets==10.4
+Werkzeug==3.0.3
+wsproto==1.2.0
+zipp==3.19.1
