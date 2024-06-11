@@ -4,7 +4,7 @@ import base64
 import os
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 CLIENT_ID = 'iZ6BVr8SIeWdQPNE9bz9Q'
 CLIENT_SECRET = 'k6OPn14WekgEvyZS8bkz4kO3O0Tv23G9'
