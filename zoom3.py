@@ -93,4 +93,4 @@ if __name__ == "__main__":
         print("No access token found. Make sure to obtain one.")
 
 # Change the port number here
-app.run(host='0.0.0.0', port=3000)
+#app.run(host='0.0.0.0', port=3000)
