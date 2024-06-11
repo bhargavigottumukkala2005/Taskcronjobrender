@@ -78,19 +78,19 @@ def schedule_meeting(access_token):
     else:
         return None
 
-@app.route('/')
-def home():
+if __name__ == "__main__":
     tokens = load_tokens()
+    
     if 'access_token' in tokens:
         access_token = tokens['access_token']
         join_url = schedule_meeting(access_token)
         if join_url:
-            return f"Meeting scheduled successfully! Join URL: {join_url}"
+            print("Meeting scheduled successfully!")
+            print("Join URL:", join_url)
         else:
-            return "Failed to schedule meeting."
+            print("Failed to schedule meeting.")
     else:
-        return "No access token found. Make sure to obtain one."
+        print("No access token found. Make sure to obtain one.")
 
-# If running this script directly, do nothing
-if __name__ == '__main__':
-    pass
+# Change the port number here
+app.run(host='0.0.0.0', port=3000)
